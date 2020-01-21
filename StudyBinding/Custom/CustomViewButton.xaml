@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="StudyBinding.Custom.CustomViewButton">
+    <ContentView.Content>
+        <StackLayout
+            BackgroundColor="Gray"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            Padding="10">
+            <Label Text="Click Me" >
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="OnTap"
+                        >
+                    </TapGestureRecognizer>
+                </Label.GestureRecognizers>
+                </Label>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>
